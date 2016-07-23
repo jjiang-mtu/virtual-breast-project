@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SimList>
+	<Sim id="1" >
+		<snum>01</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>0.1</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="2" >
+		<snum>11</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>10</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="3" >
+		<snum>06</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>1</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="4" >
+		<snum>02</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>0.1585</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="5" >
+		<snum>10</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>6.3096</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="6" >
+		<snum>03</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>.2512</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="7" >
+		<snum>09</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>3.9811</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="8" >
+		<snum>04</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>0.3981</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="9" >
+		<snum>08</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>2.5119</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="10" >
+		<snum>05</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>0.6310</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+	<Sim id="11" >
+		<snum>07</snum>
+		<!--relaxation time ratio (RTC)-->
+		<T1r>1.5849</T1r>
+		<!--elastic modulus ratio(EC)-->
+		<Er>10</Er>
+		<!--other elastic parameter thing-->
+		<g1r>1</g1r>		
+	</Sim>
+</SimList>

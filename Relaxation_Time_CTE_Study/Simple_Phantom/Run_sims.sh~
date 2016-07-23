@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Run_sims.sh LIST_FILE FOLDERNAME OUTPUTFILENAME
+
+template=D10_cube.feb
+
+xml1=Sim_E1.xml
+xml2=Sim_E5.xml
+xml3=Sim_E10.xml
+
+fold1=E01
+fold2=E5
+fold3=E10
+
+outfile=Sim
+
+mkdir -p ./$fold1
+mkdir -p ./$fold2
+mkdir -p ./$fold3
+
+for i in `seq 1 11`;
+do
+
+   python update_sim.py -i $i -lsfile $xml1 -outfile $outfile -sim_file $template
+   febio.lnx64 -i CurrentSim.feb
+   mv ./$outfile??.txt ./$fold1
+
+   python update_sim.py -i $i -lsfile $xml2 -outfile $outfile -sim_file $template
+   febio.lnx64 -i CurrentSim.feb
+   mv ./$outfile??.txt ./$fold2
+
+   python update_sim.py -i $i -lsfile $xml3 -outfile $outfile -sim_file $template
+   febio.lnx64 -i CurrentSim.feb
+   mv ./$outfile??.txt ./$fold3
+
+done
+exit
